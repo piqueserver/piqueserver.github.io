@@ -9,7 +9,7 @@ Please note that Windows OS is not oficially supported currently.
 
 ## External links
   More information such as FAQ and the installation guide can be found
-inside our [README.md](https://github.com/piqueserver/piqueserver/blob/master/README.md) 
+inside our [README](https://github.com/piqueserver/piqueserver/blob/master/README.rst) 
 and at the [wiki](https://github.com/piqueserver/piqueserver/wiki).
 
 ## Screenshots
