@@ -1,0 +1,5 @@
+modalID: 5
+title: Configuration is Easy
+date: 2019-11-16
+img: 5-easy-server-config.png
+description: Leveraging TOML configuration files, piqueserver is easy to configure. Extensive commenting allows new users to get their server running to their liking in no time! Stuck? Read the extensive documentation or ask the vibrant community for help!

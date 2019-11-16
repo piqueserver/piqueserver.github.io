@@ -1,16 +1,14 @@
-# piqueserver.github.io
-Welcome to the piqueserver website!
+# Piqueserver Website
 
-## What is piqueserver?
-  piqueserver is an Ace of Spades 0.75 (classic) server, made to be the
-continuation of PySnip.
+This repository holds the website for piqueserver, hosted on GitHub Pages.
 
-Please note that Windows OS is not officially supported currently.
+It is constructed using Hugo, following this quick-start guide:
 
-## External links
-  More information such as FAQ and the installation guide can be found
-inside our [README](https://github.com/piqueserver/piqueserver/blob/master/README.rst) 
-and at the [wiki](https://github.com/piqueserver/piqueserver/wiki).
+https://gohugo.io/getting-started/quick-start/
 
-## Screenshots
-Will be here soon.
+The selected theme is this one:
+
+https://themes.gohugo.io/creative/
+
+
+The intent is to have the theme built with Travis.

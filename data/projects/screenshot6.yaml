@@ -1,0 +1,5 @@
+modalID: 6
+title: Runs Remotely
+date: 2019-11-16
+img: 6-server-help.png
+description: It is easy to run piqueserver remotely through the included SSH utility. Piqueserver is started from the command line, making it easy to incorporate into scripts.
