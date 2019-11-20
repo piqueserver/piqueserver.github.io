@@ -14,4 +14,4 @@ deploy:
     local_dir: ./public
     fqdn: www.piqueserver.org
     on:
-        all_branches: true
+        branch: develop
