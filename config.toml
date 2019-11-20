@@ -1,0 +1,102 @@
+baseurl = ""
+languageCode = "en-us"
+title = "piqueserver"
+theme = "hugo-creative-theme"
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
+
+    # All projects of the portfolio are defined in their own files.
+    # You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+    # folder into the 'data' directory at the root of this Hugo site.
+    # For more information take a look at the README.
+
+    # To provide some metadata for search engines feel free to add some
+    # information about you and your website.
+    name = "piqueserver team"
+    description = "Website for the Ace of Spades 0.75 server based on PySnip."
+
+    # The path must be relative to the static folder
+    favicon = "favicon.ico"
+
+
+    # Navigation
+    [params.navigation]
+        brand = "piqueserver"
+
+        [params.navigation.links]
+            about     = "About"
+            services = "Why piqueserver?"
+            portfolio = "Screenshots"
+            contact = "Resources"
+
+
+    # Hero section
+    [params.hero]
+        # To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+        slogan     = "Piqueserver is here."
+        subtitle   = "[Ace of Spades](https://en.wikipedia.org/wiki/Ace_of_Spades_(video_game)) Classic lives on in this open-source reimplementation of the game's server."
+        buttonText = "Find out more"
+
+
+    # About section
+    [params.about]
+        headline    = "The way Ace of Spades was intended."
+        description = "Many people loved the 0.75 version of the classic Ace of Spades. This reimplementation of the server ensures that the game lives on for people to enjoy with new improvements, while staying authentic to the original game."
+        buttonText  = "Get started!"
+
+
+    # Service section
+    [params.services]
+        headline = "Why piqueserver?"
+
+        [[params.services.list]]
+            icon = "fas fa-cube"
+            title = "Authentic"
+            description = "Piqueserver is compatible with Ace of Spades 0.75 clients, including OpenSpades."
+
+        [[params.services.list]]
+            icon = "fas fa-code"
+            title = "Stable"
+            description = "Mature codebase provides reliable gameplay, modding capabilies, and extensive documentation."
+
+        [[params.services.list]]
+            icon = "fas fa-newspaper"
+            title = "Modern"
+            description = "A continuation of PySnip, piqueserver runs on modern systems with Python 3."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Free"
+            description = "No cost and GPLv3, piqueserver is free for enjoyment and improvement. Contributions welcome!"
+
+
+    # Portfolio modals
+    [params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+    [params.aside]
+        headline = "Get piqueserver"
+
+        [params.aside.button]
+            text = "Download now"
+            link = "https://github.com/piqueserver/piqueserver/releases"
+
+    # Contact section
+    [params.contact]
+        headline = "More Resources!"
+        description = "Piqueserver is free software - free in cost, but also free as in freedom. As an open-source project, we welcome any help in developing, bug reporting, or managing piqueserver."
+        github = "https://github.com/piqueserver/piqueserver"
+        documentation = "https://piqueserver.readthedocs.io/en/latest/"
+        matrix = "https://riot.im/app/#/room/#piqueserver:matrix.org"
+        gitter = "https://gitter.im/piqueserver/piqueserver"

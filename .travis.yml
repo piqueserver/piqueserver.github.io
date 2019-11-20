@@ -1,0 +1,17 @@
+dist: bionic
+sudo: required
+addons:
+    snaps:
+        - hugo
+
+script:
+    - hugo -D
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $PAGES_GITHUB_TOKEN
+    local_dir: ./public
+    fqdn: www.piqueserver.org
+    on:
+        all_branches: true
